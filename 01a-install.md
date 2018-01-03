@@ -49,7 +49,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I chose to install Python 3 because it was the most recent version, and I began learning python prior to the course.
 
 ### Q2. Which Python Version Installed   
 
@@ -57,7 +57,7 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> python 3.6.1
 
  
 
