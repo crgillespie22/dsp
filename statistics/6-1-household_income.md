@@ -12,12 +12,16 @@ Median(sample)
 ```Python
 StandardizedMoment(sample,3)
 ```
-4.9499202444295829
+1.054840012109306
 ```Python
 PearsonMedianSkewness(sample)
 ```
-0.7361258019141782
+0.26436733816180391
+```Python
+cdf.Prob(Mean(sample))
+```
+0.66000587956687196
 
 The results depend on the upper bound because it eliminates certain outliers. A higher upper bound allows more outliers to exert an effect on the statistics.
 
-The skewness more than doubles when the upper bound is 10 million.
+The skewness increases dramatically when the upper bound is 10 million.
