@@ -16,5 +16,9 @@
     return d
     
    firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
+   result: (7.201094430437772, 7.325855614973262)
+   **First babies are lighter than others**
     
    CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
+   result: -0.088672927072602006
+   **Cohen's D for birth weight is negative and of a larger magnitude than that of pregnancy length**
