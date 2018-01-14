@@ -21,7 +21,7 @@ thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Config(xlabel='Number of Kids', ylabel='PMF')
 ```
 
-![plot] (file:///Users/chrisgillespie/Desktop/Screen%20Shot%202018-01-13%20at%208.53.40%20PM.png)
+![plot](file:///Users/chrisgillespie/Desktop/Screen%20Shot%202018-01-13%20at%208.53.40%20PM.png)
 ```Python
 print('Actual Mean', pmf.Mean())
 print('Observed Mean', biased_pmf.Mean())
