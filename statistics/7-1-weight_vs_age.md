@@ -9,7 +9,7 @@ thinkplot.Config(xlabel='Age (yrs)',
                  axis=[10, 50, 0, 15],
                  legend=False)
 ```
-![Scatter](7_1_Scatter)
+![Scatter](7_1_Scatter.png)
 ```Python
 bins = np.arange(10, 50, 4)
 indices = np.digitize(live.agepreg, bins)
@@ -28,7 +28,7 @@ thinkplot.Config(xlabel="Mother's age (yrs)",
                     ylabel='Birth weight (lbs)',
                     xlim=[12, 45], legend=True)
 ```
-![Percentile](7_1_Percentile)
+![Percentile](7_1_Percentile.png)
 ```Python
 print("Pearson's Corr: ", Corr(ages, weights))
 print("Spearman's Corr: ", SpearmanCorr(ages, weights))
