@@ -7,10 +7,10 @@ pmf = thinkstats2.Pmf(t)
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='Random Number', ylabel='PMF')
 ```
-![Plot1]
+![Plot1](PMF_4.png)
 ```Python
 cdf = thinkstats2.Cdf(t)
 thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='Random Number', ylabel='CDF')
 ```
-![Plot2]
+![Plot2](CDF_4.png)
